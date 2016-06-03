@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189911FC1D016FBC0025F0F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189911FB1D016FBC0025F0F3 /* main.m */; };
+		189911FF1D016FBC0025F0F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189911FE1D016FBC0025F0F3 /* AppDelegate.m */; };
+		189912021D016FBC0025F0F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189912011D016FBC0025F0F3 /* ViewController.m */; };
+		189912051D016FBC0025F0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189912031D016FBC0025F0F3 /* Main.storyboard */; };
+		189912081D016FBC0025F0F3 /* WEChatYU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189912061D016FBC0025F0F3 /* WEChatYU.xcdatamodeld */; };
+		1899120A1D016FBC0025F0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189912091D016FBC0025F0F3 /* Assets.xcassets */; };
+		1899120D1D016FBC0025F0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899120B1D016FBC0025F0F3 /* LaunchScreen.storyboard */; };
+		189912181D016FBC0025F0F3 /* WEChatYUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189912171D016FBC0025F0F3 /* WEChatYUTests.m */; };
+		189912231D016FBC0025F0F3 /* WEChatYUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189912221D016FBC0025F0F3 /* WEChatYUUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189912141D016FBC0025F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189911EF1D016FBC0025F0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189911F61D016FBC0025F0F3;
+			remoteInfo = WEChatYU;
+		};
+		1899121F1D016FBC0025F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189911EF1D016FBC0025F0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189911F61D016FBC0025F0F3;
+			remoteInfo = WEChatYU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189911F71D016FBC0025F0F3 /* WEChatYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEChatYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189911FB1D016FBC0025F0F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189911FD1D016FBC0025F0F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189911FE1D016FBC0025F0F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189912001D016FBC0025F0F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189912011D016FBC0025F0F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189912041D016FBC0025F0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189912071D016FBC0025F0F3 /* WEChatYU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WEChatYU.xcdatamodel; sourceTree = "<group>"; };
+		189912091D016FBC0025F0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1899120C1D016FBC0025F0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1899120E1D016FBC0025F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189912131D016FBC0025F0F3 /* WEChatYUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEChatYUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189912171D016FBC0025F0F3 /* WEChatYUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEChatYUTests.m; sourceTree = "<group>"; };
+		189912191D016FBC0025F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1899121E1D016FBC0025F0F3 /* WEChatYUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEChatYUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189912221D016FBC0025F0F3 /* WEChatYUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEChatYUUITests.m; sourceTree = "<group>"; };
+		189912241D016FBC0025F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189911F41D016FBC0025F0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189912101D016FBC0025F0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899121B1D016FBC0025F0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189911EE1D016FBC0025F0F3 = {
+			isa = PBXGroup;
+			children = (
+				189911F91D016FBC0025F0F3 /* WEChatYU */,
+				189912161D016FBC0025F0F3 /* WEChatYUTests */,
+				189912211D016FBC0025F0F3 /* WEChatYUUITests */,
+				189911F81D016FBC0025F0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189911F81D016FBC0025F0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189911F71D016FBC0025F0F3 /* WEChatYU.app */,
+				189912131D016FBC0025F0F3 /* WEChatYUTests.xctest */,
+				1899121E1D016FBC0025F0F3 /* WEChatYUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189911F91D016FBC0025F0F3 /* WEChatYU */ = {
+			isa = PBXGroup;
+			children = (
+				189911FD1D016FBC0025F0F3 /* AppDelegate.h */,
+				189911FE1D016FBC0025F0F3 /* AppDelegate.m */,
+				189912001D016FBC0025F0F3 /* ViewController.h */,
+				189912011D016FBC0025F0F3 /* ViewController.m */,
+				189912031D016FBC0025F0F3 /* Main.storyboard */,
+				189912091D016FBC0025F0F3 /* Assets.xcassets */,
+				1899120B1D016FBC0025F0F3 /* LaunchScreen.storyboard */,
+				1899120E1D016FBC0025F0F3 /* Info.plist */,
+				189912061D016FBC0025F0F3 /* WEChatYU.xcdatamodeld */,
+				189911FA1D016FBC0025F0F3 /* Supporting Files */,
+			);
+			path = WEChatYU;
+			sourceTree = "<group>";
+		};
+		189911FA1D016FBC0025F0F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189911FB1D016FBC0025F0F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189912161D016FBC0025F0F3 /* WEChatYUTests */ = {
+			isa = PBXGroup;
+			children = (
+				189912171D016FBC0025F0F3 /* WEChatYUTests.m */,
+				189912191D016FBC0025F0F3 /* Info.plist */,
+			);
+			path = WEChatYUTests;
+			sourceTree = "<group>";
+		};
+		189912211D016FBC0025F0F3 /* WEChatYUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189912221D016FBC0025F0F3 /* WEChatYUUITests.m */,
+				189912241D016FBC0025F0F3 /* Info.plist */,
+			);
+			path = WEChatYUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189911F61D016FBC0025F0F3 /* WEChatYU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189912271D016FBC0025F0F3 /* Build configuration list for PBXNativeTarget "WEChatYU" */;
+			buildPhases = (
+				189911F31D016FBC0025F0F3 /* Sources */,
+				189911F41D016FBC0025F0F3 /* Frameworks */,
+				189911F51D016FBC0025F0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WEChatYU;
+			productName = WEChatYU;
+			productReference = 189911F71D016FBC0025F0F3 /* WEChatYU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189912121D016FBC0025F0F3 /* WEChatYUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1899122A1D016FBC0025F0F3 /* Build configuration list for PBXNativeTarget "WEChatYUTests" */;
+			buildPhases = (
+				1899120F1D016FBC0025F0F3 /* Sources */,
+				189912101D016FBC0025F0F3 /* Frameworks */,
+				189912111D016FBC0025F0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189912151D016FBC0025F0F3 /* PBXTargetDependency */,
+			);
+			name = WEChatYUTests;
+			productName = WEChatYUTests;
+			productReference = 189912131D016FBC0025F0F3 /* WEChatYUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1899121D1D016FBC0025F0F3 /* WEChatYUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1899122D1D016FBC0025F0F3 /* Build configuration list for PBXNativeTarget "WEChatYUUITests" */;
+			buildPhases = (
+				1899121A1D016FBC0025F0F3 /* Sources */,
+				1899121B1D016FBC0025F0F3 /* Frameworks */,
+				1899121C1D016FBC0025F0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189912201D016FBC0025F0F3 /* PBXTargetDependency */,
+			);
+			name = WEChatYUUITests;
+			productName = WEChatYUUITests;
+			productReference = 1899121E1D016FBC0025F0F3 /* WEChatYUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189911EF1D016FBC0025F0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					189911F61D016FBC0025F0F3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					189912121D016FBC0025F0F3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 189911F61D016FBC0025F0F3;
+					};
+					1899121D1D016FBC0025F0F3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 189911F61D016FBC0025F0F3;
+					};
+				};
+			};
+			buildConfigurationList = 189911F21D016FBC0025F0F3 /* Build configuration list for PBXProject "WEChatYU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189911EE1D016FBC0025F0F3;
+			productRefGroup = 189911F81D016FBC0025F0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189911F61D016FBC0025F0F3 /* WEChatYU */,
+				189912121D016FBC0025F0F3 /* WEChatYUTests */,
+				1899121D1D016FBC0025F0F3 /* WEChatYUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189911F51D016FBC0025F0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1899120D1D016FBC0025F0F3 /* LaunchScreen.storyboard in Resources */,
+				1899120A1D016FBC0025F0F3 /* Assets.xcassets in Resources */,
+				189912051D016FBC0025F0F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189912111D016FBC0025F0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899121C1D016FBC0025F0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189911F31D016FBC0025F0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189912021D016FBC0025F0F3 /* ViewController.m in Sources */,
+				189911FF1D016FBC0025F0F3 /* AppDelegate.m in Sources */,
+				189911FC1D016FBC0025F0F3 /* main.m in Sources */,
+				189912081D016FBC0025F0F3 /* WEChatYU.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899120F1D016FBC0025F0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189912181D016FBC0025F0F3 /* WEChatYUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1899121A1D016FBC0025F0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189912231D016FBC0025F0F3 /* WEChatYUUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189912151D016FBC0025F0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189911F61D016FBC0025F0F3 /* WEChatYU */;
+			targetProxy = 189912141D016FBC0025F0F3 /* PBXContainerItemProxy */;
+		};
+		189912201D016FBC0025F0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189911F61D016FBC0025F0F3 /* WEChatYU */;
+			targetProxy = 1899121F1D016FBC0025F0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189912031D016FBC0025F0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189912041D016FBC0025F0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1899120B1D016FBC0025F0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1899120C1D016FBC0025F0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189912251D016FBC0025F0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189912261D016FBC0025F0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189912281D016FBC0025F0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WEChatYU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applepro.WEChatYU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189912291D016FBC0025F0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WEChatYU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applepro.WEChatYU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1899122B1D016FBC0025F0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WEChatYUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applepro.WEChatYUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEChatYU.app/WEChatYU";
+			};
+			name = Debug;
+		};
+		1899122C1D016FBC0025F0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WEChatYUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applepro.WEChatYUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEChatYU.app/WEChatYU";
+			};
+			name = Release;
+		};
+		1899122E1D016FBC0025F0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WEChatYUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applepro.WEChatYUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WEChatYU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1899122F1D016FBC0025F0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WEChatYUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applepro.WEChatYUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WEChatYU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189911F21D016FBC0025F0F3 /* Build configuration list for PBXProject "WEChatYU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189912251D016FBC0025F0F3 /* Debug */,
+				189912261D016FBC0025F0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189912271D016FBC0025F0F3 /* Build configuration list for PBXNativeTarget "WEChatYU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189912281D016FBC0025F0F3 /* Debug */,
+				189912291D016FBC0025F0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1899122A1D016FBC0025F0F3 /* Build configuration list for PBXNativeTarget "WEChatYUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1899122B1D016FBC0025F0F3 /* Debug */,
+				1899122C1D016FBC0025F0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1899122D1D016FBC0025F0F3 /* Build configuration list for PBXNativeTarget "WEChatYUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1899122E1D016FBC0025F0F3 /* Debug */,
+				1899122F1D016FBC0025F0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		189912061D016FBC0025F0F3 /* WEChatYU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				189912071D016FBC0025F0F3 /* WEChatYU.xcdatamodel */,
+			);
+			currentVersion = 189912071D016FBC0025F0F3 /* WEChatYU.xcdatamodel */;
+			path = WEChatYU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 189911EF1D016FBC0025F0F3 /* Project object */;
+}
