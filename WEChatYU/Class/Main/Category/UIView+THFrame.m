@@ -9,6 +9,10 @@
 #import "UIView+THFrame.h"
 
 @implementation UIView (THFrame)
++ (instancetype)viewFromXib
+{
+    return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] lastObject];
+}
 - (void)setX:(CGFloat)x
 
 {

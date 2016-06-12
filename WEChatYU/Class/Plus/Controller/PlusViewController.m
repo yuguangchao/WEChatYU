@@ -1,21 +1,18 @@
 //
-//  MainViewController.m
+//  PlusViewController.m
 //  WEChatYU
 //
-//  Created by apple on 16/6/3.
+//  Created by apple on 16/6/7.
 //  Copyright © 2016年 apple. All rights reserved.
 //
 
-#import "MainViewController.h"
-#import "MainTabBarController.h"
-#import "MainNavigationController.h"
-@interface MainViewController ()
-@property (nonatomic, strong) UIView *tabBarView;
-@property (nonatomic, strong) UIView *detailView;
-@property (nonatomic, strong) UIView *coverView;
+#import "PlusViewController.h"
+
+@interface PlusViewController ()
+
 @end
 
-@implementation MainViewController
+@implementation PlusViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

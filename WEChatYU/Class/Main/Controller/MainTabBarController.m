@@ -12,6 +12,7 @@
 #import "SessionViewController.h"
 #import "SettingViewController.h"
 #import "MainNavigationController.h"
+#import "MainTabBar.h"
 @interface MainTabBarController ()
 
 @end
@@ -22,7 +23,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setupItem];
+    
     [self setupChildVC];
+    
+    [self setupTabBar];
+}
+- (void)setupTabBar{
+    [self setValue:[[MainTabBar alloc] init] forKey:@"tabBar"];
 }
 - (void)setupChildVC{
     [self setupChildVc:[[SessionViewController alloc] init] title:@"会话" image:@"home_normal" selectedImage:@"home_highlight"];
