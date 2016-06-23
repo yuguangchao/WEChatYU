@@ -26,7 +26,7 @@
     
     [self setupChildVC];
     
-    [self setupTabBar];
+    [self setupTabBar];//中间加号
 }
 - (void)setupTabBar{
     [self setValue:[[MainTabBar alloc] init] forKey:@"tabBar"];

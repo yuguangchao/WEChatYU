@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1835215F1D1A834B00E026A8 /* PlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835215E1D1A834B00E026A8 /* PlusButton.m */; };
 		189911FC1D016FBC0025F0F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189911FB1D016FBC0025F0F3 /* main.m */; };
 		189911FF1D016FBC0025F0F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189911FE1D016FBC0025F0F3 /* AppDelegate.m */; };
 		189912081D016FBC0025F0F3 /* WEChatYU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189912061D016FBC0025F0F3 /* WEChatYU.xcdatamodeld */; };
@@ -49,6 +50,7 @@
 		189912A01D0180400025F0F3 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899129F1D0180400025F0F3 /* SettingViewController.m */; };
 		189912A31D018CA50025F0F3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189912A21D018CA50025F0F3 /* MainViewController.m */; };
 		189912A91D01928C0025F0F3 /* UIView+THFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 189912A71D01928C0025F0F3 /* UIView+THFrame.m */; };
+		18C163C51D0FDD7D000E5A23 /* NSObject+propertyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C163C41D0FDD7D000E5A23 /* NSObject+propertyCode.m */; };
 		18CEECCD1D066F19001D0262 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEECCC1D066F19001D0262 /* MainTabBar.m */; };
 		18CEECD01D066FBF001D0262 /* PlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEECCF1D066FBF001D0262 /* PlusViewController.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1835215D1D1A834B00E026A8 /* PlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusButton.h; sourceTree = "<group>"; };
+		1835215E1D1A834B00E026A8 /* PlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusButton.m; sourceTree = "<group>"; };
 		186A39E61D07C0B200026095 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		189911F71D016FBC0025F0F3 /* WEChatYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEChatYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189911FB1D016FBC0025F0F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		189912A21D018CA50025F0F3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		189912A61D01928C0025F0F3 /* UIView+THFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THFrame.h"; sourceTree = "<group>"; };
 		189912A71D01928C0025F0F3 /* UIView+THFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THFrame.m"; sourceTree = "<group>"; };
+		18C163C31D0FDD7D000E5A23 /* NSObject+propertyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+propertyCode.h"; sourceTree = "<group>"; };
+		18C163C41D0FDD7D000E5A23 /* NSObject+propertyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+propertyCode.m"; sourceTree = "<group>"; };
 		18CEECCB1D066F19001D0262 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
 		18CEECCC1D066F19001D0262 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
 		18CEECCE1D066FBF001D0262 /* PlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusViewController.h; sourceTree = "<group>"; };
@@ -322,6 +328,8 @@
 			children = (
 				189912A61D01928C0025F0F3 /* UIView+THFrame.h */,
 				189912A71D01928C0025F0F3 /* UIView+THFrame.m */,
+				18C163C31D0FDD7D000E5A23 /* NSObject+propertyCode.h */,
+				18C163C41D0FDD7D000E5A23 /* NSObject+propertyCode.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -385,6 +393,8 @@
 			children = (
 				18CEECCE1D066FBF001D0262 /* PlusViewController.h */,
 				18CEECCF1D066FBF001D0262 /* PlusViewController.m */,
+				1835215D1D1A834B00E026A8 /* PlusButton.h */,
+				1835215E1D1A834B00E026A8 /* PlusButton.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -705,6 +715,8 @@
 				189912971D017FF30025F0F3 /* DiscoverViewController.m in Sources */,
 				189911FC1D016FBC0025F0F3 /* main.m in Sources */,
 				1899129A1D01800F0025F0F3 /* GroupViewController.m in Sources */,
+				1835215F1D1A834B00E026A8 /* PlusButton.m in Sources */,
+				18C163C51D0FDD7D000E5A23 /* NSObject+propertyCode.m in Sources */,
 				1899128E1D017BEB0025F0F3 /* MainTabBarController.m in Sources */,
 				18CEECD01D066FBF001D0262 /* PlusViewController.m in Sources */,
 				189912081D016FBC0025F0F3 /* WEChatYU.xcdatamodeld in Sources */,
