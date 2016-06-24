@@ -29,7 +29,7 @@
     [self setupTabBar];//中间加号
 }
 - (void)setupTabBar{
-    [self setValue:[[MainTabBar alloc] init] forKey:@"tabBar"];
+    [self setValue:[[MainTabBar alloc] init] forKey:@"tabBar"];//KVO模式
 }
 - (void)setupChildVC{
     [self setupChildVc:[[SessionViewController alloc] init] title:@"会话" image:@"home_normal" selectedImage:@"home_highlight"];

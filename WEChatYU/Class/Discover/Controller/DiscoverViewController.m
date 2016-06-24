@@ -4,7 +4,7 @@
 //
 //  Created by apple on 16/6/3.
 //  Copyright © 2016年 apple. All rights reserved.
-//
+//发现
 
 #import "DiscoverViewController.h"
 

@@ -8,9 +8,34 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//头文件
 #import "UIView+THFrame.h"
+
+
+
+
+// 打印日志
 #define LCLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+// 对象弱引用
+#define LCWeakSelf __weak typeof(self) weakSelf = self;
+
+// 屏幕的尺寸
+#define screenW  [UIScreen mainScreen].bounds.size.width
+#define screenH  [UIScreen mainScreen].bounds.size.height
+
+// 判断设备横屏
+#define UI_IS_LANDSCAPE         ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft || [UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight)
+// 设备类型
+#define UI_IS_IPAD              ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define UI_IS_IPHONE            ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+// 屏幕尺寸 {414, 736},{375, 667},{320, 568},{320, 480}
+#define UI_IS_IPHONE4           (UI_IS_IPHONE && screenH < 568.0)
+#define UI_IS_IPHONE5           (UI_IS_IPHONE && screenH == 568.0)
+#define UI_IS_IPHONE6           (UI_IS_IPHONE && screenH == 667.0)
+#define UI_IS_IPHONE6PLUS       (UI_IS_IPHONE && screenH == 736.0 || screenW == 736.0) // Both orientations
+
+// 系统版本
+#define UI_IS_IOS8_AND_HIGHER   ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0)
+
 #endif /* PrefixHeader_pch */

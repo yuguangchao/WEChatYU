@@ -4,34 +4,36 @@
 //
 //  Created by apple on 16/6/3.
 //  Copyright © 2016年 apple. All rights reserved.
-//
+//会话
 
 #import "SessionViewController.h"
 
-@interface SessionViewController ()
-
+@interface SessionViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic,strong) NSMutableArray* sessionList;//数据源数组
+@property (nonatomic,strong) UITableView *sessionTableView;
 @end
 
 @implementation SessionViewController
+static NSString * const sessionCellID = @"sessionCellID";
+//懒加载
+- (NSMutableArray *)sessionList{
+    if (!_sessionList) {
+        _sessionList = [NSMutableArray array];
+    }
+    return _sessionList;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupTableView{
+    UITableView* tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    self.sessionTableView = tableView;
+    [self.view addSubview:tableView];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
